@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    border: 1px solid rgb(167, 167, 167);
+    width: fit-content;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+     
+}
+p{
+    font-weight: bold;
+    font-size: medium;
+}
+body {
+    background-color:pink lighten-5;
+}
+.head{
+    text-align: center;
+}
+#begin{
+    font-size: small;
+}
+#bttn,#bttn2{
+    font-size: medium;
+    font-weight: bold;
+}
+#now{
+    display: none;
+}
+.bold1{
+    font-weight: bold;
+}
+.textstyle{
+    font-size: large !important;
+    font-weight: bold;
+}
+#map{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
