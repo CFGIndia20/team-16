@@ -10,20 +10,20 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGDJpu0p6GzfFMxDd7ALcFvd9JK9SKMnI&callback=initMap">
     </script>
     <script src="map2.js"></script>
-    <title>Janagraaha</title>
+    <title>Weather App</title>
 </head>
 <body class="pink lighten-5">
     <div class="card blue-grey darken-1">
         <div class="card-content white-text head">
-          <span class="card-title bold1">Janagraaha</span>
+          <span class="card-title bold1">Weather App</span>
         </div>
     </div>
     <div id="begin" class="container card-panel white lighten-2 ">
-        <h4>Enter the details below</h4>
+        <h2>Enter the details</h2>
         <br>
         <br>
-        <p>Description of the problem</p>
-        <input type="text" id="desc">
+        <p>Tell us about your problem</p>
+        <input type="text" id="probstatement">
         <p>Drag the marker to the required location.</p>
         <div id="map"></div>
         <br><br>
@@ -41,17 +41,19 @@
         <div>
             <h2 id="place" ></h2>
         </div>
-        <div>
-            <p>Latitude - <span id="ltt"></span> </p>
+        <!-- <div>
+            <img src="" id="img2">
         </div>
         <div>
-            <p>Longitude - <span id="lgg"></span> </p>
-        </div>
+            <p id="des" class="textstyle"></p>
+        </div> 
         <div>
-            <p>Problem stated - <span id="desc1"></span> </p>
-            
+            <p class="textstyle"><span id="temp" ></span>° Celcius</p>
         </div>
         
+        <div>
+            <p class="textstyle">Humidity: <span id ="pres"></span></p>
+        </div> -->
     </div>    
 </body>
 </html>
