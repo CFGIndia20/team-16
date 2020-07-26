@@ -44,7 +44,9 @@ Bootstrap (https://getbootstrap.com/)
 * Java Language
 
 ## References
-
+1. https://cloud.google.com/dialogflow/docs
+2. https://medium.com/zenofai/creating-chatbot-using-python-flask-d6947d8ef805
+3. https://dzone.com/articles/nodejs-vs-djangois-javascript-better-than-python
 
 
 
