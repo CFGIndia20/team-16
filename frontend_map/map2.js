@@ -37,15 +37,9 @@ function initMap() {
         })
         .then(function(data){
             console.log(data);
-            var temp1=data.main.temp-273;
-            var prep1=data.main.humidity;
-            var descrip=data.weather[0].description;
-            var ii=data.weather[0].icon;
+            // console.log(lat);
             var place2=data.name+", "+data.sys.country;
-            document.getElementById("temp").innerHTML=Math.round(temp1);
-            document.getElementById("des").innerHTML=descrip;
-            document.getElementById("pres").innerHTML=Math.round(prep1);
-            document.getElementById("img2").src="http://openweathermap.org/img/wn/"+ii+"@2x.png";
+         
             document.getElementById("place").innerHTML=place2;
             document.getElementById("begin").style.display="none";
             document.getElementById("now").style.display="block";
