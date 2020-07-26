@@ -1,6 +1,32 @@
 window.onload=function(){
-    document.getElementById("bttn").addEventListener("click", getLocation);
+    document.getElementById("loginbtn").addEventListener("click", logcall);
+    document.getElementById("signupbtn").addEventListener("click", signcall);
     
+}
+function logcall(){
+    document.getElementById("landing").style.display="none";
+    document.getElementById("login").style.display="block";
+    document.getElementById("loginbtn2").addEventListener("click", mapcall);
+}
+function signcall(){
+    document.getElementById("landing").style.display="none";
+    document.getElementById("signup").style.display="block";
+    document.getElementById("signupbtn45").addEventListener("click", logcall2);
+}
+function logcall2(){
+    document.getElementById("signup").style.display="none";
+    document.getElementById("login").style.display="block";
+    document.getElementById("loginbtn2").addEventListener("click", mapcall2);
+}
+function mapcall(){
+    document.getElementById("login").style.display="none";
+    document.getElementById("begin").style.display="block";
+    // document.getElementById("loginbtn2").addEventListener("click", mapcall);
+}
+function mapcall2(){
+    document.getElementById("login").style.display="none";
+    document.getElementById("begin").style.display="block";
+    // document.getElementById("loginbtn2").addEventListener("click", mapcall);
 }
 function getLocation() {
     if(navigator.geolocation) {
