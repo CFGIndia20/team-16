@@ -19,7 +19,12 @@ Key Features :
 ### Tools used-🛠️
 Bootstrap (https://getbootstrap.com/)
 
-## Modeling
+## Modelling
+<br />
+    <h3 align="center"></h3>
+    <br />
+    <img src="./read_me_images/ML.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+    <br />
 ### Tools and Technologies used- :🛠️
 * Machine Learning
 * Platform- Juypter
