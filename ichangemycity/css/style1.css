@@ -1,0 +1,12 @@
+#about,#services,#team{
+    background-color: black !important;
+}
+#about .about-container .content {
+    background: black;
+}
+#facts,#portfolio,#contact{
+    background-color: #333438;
+}
+.box{
+
+}
