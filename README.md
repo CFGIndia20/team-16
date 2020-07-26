@@ -1,7 +1,7 @@
 # Team-16 HEXception
 # NGO - JANAAGRAHA
 # ichangemycity 🌳
-
+# Video Demo https://drive.google.com/file/d/1U3Y4VtC6TF0BAX6ZysXgYuduSPHVpegT/view
 # Challenge Statement-
 An issue reporting system that could be included in the current platform for user to post the issue by simply sending a text. This is not possible right now because the user needs to identify the category of the issue for the NGO to further process it. Currently, there are more than 100 categories that the user can choose the issue from and it is not simple to display more than 100 Categories. A few examples of the issue category woule be ‘Garbage dump on the road’, ‘Street light issue’, ‘Public toilet not being clean’, ‘Potholes’ etc.
 This process can be made easier if the description posted by the user is analysed, and through a machine learning algorithm, the system can identify the category to which the issue belongs to.
