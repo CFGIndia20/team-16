@@ -16,25 +16,23 @@ function geoSuccess(position) {
     lng = position.coords.longitude;
     
     url="http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lng + "&appid="+apikey;
-    getData(url,lat,lng);
+    getData(url);
 }
 
 function geoError() {
     alert("Geocoder failed.");
 }
-function getData(url,lat,lng){
-    // console.log(lat);
+function getData(url){
     fetch(url)
     .then(function(response){
         data=response.json();
         return data;
     })
-    .then(function(data,lat,lng){
+    .then(function(data){
         console.log(data);
+     
         var place2=data.name+", "+data.sys.country;
-        document.getElementById("desc1").innerHTML=descrip;
-        document.getElementById("ltt").innerHTML=lat;
-        document.getElementById("lgg").innerHTML=lng;
+    
         document.getElementById("place").innerHTML=place2;
         document.getElementById("begin").style.display="none";
         document.getElementById("now").style.display="block";
