@@ -43,11 +43,36 @@ GetOldTweets3 --querysearch "museum" --near "55.75, 37.61" --within 40km --maxtw
 import os, sys, re, getopt
 import traceback
 from csv import reader
+import PySimpleGUI as sg
 
 if sys.version_info[0] < 3:
     raise Exception("Python 2.x is not supported. Please upgrade to 3.x")
 
 import GetOldTweets3 as got
+
+"""
+# GUI IMPLEMENTATION
+sg.theme('DarkAmber')	# Add a touch of color
+# All the stuff inside your window.
+layout = [  [sg.Text('Please specify the following parameters')],
+            [sg.Text('Complaint category'), sg.InputText()],
+            [sg.Text('Lat-Long'), sg.InputText()],
+            [sg.Text('Radius in km'), sg.InputText()],
+            [sg.Text('max tweets'), sg.InputText()],
+            [sg.Button('Ok'), sg.Button('Cancel')] ]
+
+# Create the Window
+window = sg.Window('Fetch complaints via tweet', layout)
+# Event Loop to process "events" and get the "values" of the inputs
+while True:
+    event, values = window.read()
+    if event == sg.WIN_CLOSED or event == 'Cancel':	# if user closes window or clicks cancel
+        break
+    #print('You entered ', values[0])
+
+window.close()
+
+"""
 
 def main(argv):
     if len(argv) == 0:
@@ -63,7 +88,7 @@ def main(argv):
         csv_reader = reader(read_obj)
         # Pass reader object to list() to get a list of lists
         list_of_categories = list(csv_reader)
-        print(list_of_categories)
+        #print(list_of_categories)
         
     
     try:
