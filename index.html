@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script async="false" 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGDJpu0p6GzfFMxDd7ALcFvd9JK9SKMnI&callback=initMap">
+    </script>
+    <script src="map2.js"></script>
+    <title>Janagraaha</title>
+</head>
+<body class="pink lighten-5">
+    <div class="card blue-grey darken-1">
+        <div class="card-content white-text head">
+          <span class="card-title bold1">Janagraaha</span>
+        </div>
+    </div>
+    <div id="begin" class="container card-panel white lighten-2 ">
+        <h2>Enter the details</h2>
+        <br>
+        <br>
+        <p>Tell us about your problem</p>
+        <input type="text" id="probstatement">
+        <p>Drag the marker to the required location.</p>
+        <div id="map"></div>
+        <br><br>
+        <div >
+            <button id="bttn2" class="waves-effect waves-light btn-large blue-grey darken-1 white-text text-darken-2">Use Map</button>
+        </div>
+        <p>OR</p>
+        <div >
+            <button id="bttn" class="waves-effect waves-light btn-large blue-grey darken-1 white-text text-darken-2">Use Current Location</button>
+        </div>
+        
+    </div>
+    <div class="container card-panel white lighten-2 " id="now">
+        
+        <div>
+            <h2 id="place" ></h2>
+        </div>
+
+    </div>    
+</body>
+</html>
