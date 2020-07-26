@@ -23,7 +23,7 @@ Bootstrap (https://getbootstrap.com/)
 <br />
     <h3 align="center"></h3>
     <br />
-    <img src="./read_me_images/ML.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+    <img src="./read_me_images/Ml.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
     <br />
 ### Tools and Technologies used- :🛠️
 * Machine Learning
@@ -33,6 +33,11 @@ Bootstrap (https://getbootstrap.com/)
 * TFIDF vectorizers
 
 ## App- 📴
+<br />
+    <h3 align="center"></h3>
+    <br />
+    <img src="./read_me_images/app.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+    <br />
 ### Tools and Technilogies used-🛠️
 * Dialogue flow
 * Android
