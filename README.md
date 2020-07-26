@@ -10,8 +10,6 @@ Key Features :
 2. A machine learning system which can identify the nature and category of the issue posted.
 
 ## Website Frontend- 🖌
-  <br />
-    <h3 align="center">Cache</h3>
     <br />
     <img src="./read_me_images/web.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
     <br />
